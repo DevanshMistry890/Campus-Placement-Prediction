@@ -68,7 +68,7 @@ python app.py
 
 - Enter valid values in all input boxes and hit Predict.
 
-If everything goes well, you should  be able to see the predcited salary Class on the HTML page!
+If everything goes well, you should  be able to see the predcition on the HTML page!
 
 ## Authors
 Devansh Mistry - [Linkedin](https://linkedin.com/in/devansh-vinodkumar-mistry-9bb2611aa/)
