@@ -28,7 +28,7 @@ Life Cycle of implementing machine learning application.
 ## Dataset
 The Campus Recruitment Prediction (Course Project) Dataset BY QuantumAI has been used for this purpose, taken from the Kaggle*. link is below.
 
-- [datset](https://www.kaggle.com/c/ml-with-python-course-project/data)
+- [dataset](https://www.kaggle.com/c/ml-with-python-course-project/data)
 
 
 ## Homepage (Responsive)
