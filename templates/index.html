@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Campus Placement Prediction</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="title" content="Campus Placement Prediction">
+<meta name="author" content="Devansh">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/neumorphism.css') }}">
+<link rel="javascript" href="{{ url_for('static', filename='js/neumorphism.js') }}">
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head> 
+<body>
+    <main>        
+        <section class="container-fluid py-3">
+            <div class="row justify-content-md-around">
+                <div class="col-11">
+                    <div class="card bg-primary shadow-soft border-light px-4 py-4">
+                        <div class="card-header pb-0 text-center">
+                            <h2 class="h1 mb-3">Campus Placement Prediction</h2>
+                            <p class="mb-5 lead">
+                                Enter Details for forecast.
+                            </p>
+                        </div>
+                        <form name="frmregi" action="/result" method="POST">
+                            <!-- Form -->
+                            <div class="row mb-4 mb-lg-5">
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="ssc_p">SSC PR%:[45-100]</label>
+                                        <div class="input-group mb-4">
+                                            <input class="form-control" type="number" id="ssc_p" name="ssc_p" required min="45" max="100">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="hsc_p">HSC PR%:[45-100]</label>
+                                        <div class="input-group mb-4">
+                                            <input class="form-control" type="number" id="hsc_p" name="hsc_p" required min="45" max="100">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="degree_p">Degree PR%:[35-100]</label>
+                                        <div class="input-group mb-4">
+                                            <input class="form-control" type="number" id="degree_p" name="degree_p" required min="35" max="100">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="etest_p">etest_p:[1-99]</label>
+                                        <div class="input-group mb-4">
+                                            <input class="form-control" type="number" id="etest_p" name="etest_p" required min="0" max="100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="form-group">
+                                        <label for="mba_p">mba_p:[1-99]</label>
+                                        <div class="input-group mb-4">
+                                            <input class="form-control" type="number" id="mba_p" name="mba_p" required min="0" max="100">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="my-1 mr-2" for="gender">gender</label>
+                                        <select class="custom-select my-1 mr-sm-2" id="gender" name="gender" required>
+                                            <option value="0" selected>Male</option>
+											<option value="1">Female</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="my-1 mr-2" for="ssc_b">ssc_b</label>
+                                        <select class="custom-select my-1 mr-sm-2" id="ssc_b" name="ssc_b" required>
+                                            <option value="0" selected>Central</option>
+											<option value="1">Others</option>
+	                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="my-1 mr-2" for="hsc_b">hsc_b</label>
+                                        <select class="custom-select my-1 mr-sm-2" id="hsc_b" name="hsc_b" required>
+                                            <option value="0" selected>Central</option>
+											<option value="1">Others</option>
+                                        </select>
+                                    </div>                                    
+                                </div>
+                                <div class="col-lg-4 col-sm-6">
+                                    <div class="form-group">
+                                        <label class="my-1 mr-2" for="hsc_s">hsc_s</label>
+                                        <select class="custom-select my-1 mr-sm-2" id="hsc_s" name="hsc_s" required>
+                                            <option value="0" selected>Arts</option>
+											<option value="1">Commerce</option>
+											<option value="2">Science</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="my-1 mr-2" for="degree_t">degree_t</label>
+                                        <select class="custom-select my-1 mr-sm-2" id="degree_t" name="degree_t" required>
+                                            <option value="0" selected>Comm&Mgmt</option>
+											<option value="1">Others</option>
+											<option value="2">Sci&Tech</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="my-1 mr-2" for="workex">workex</label>
+                                        <select class="custom-select my-1 mr-sm-2" id="workex" name="workex" required>
+                                            <option value="0" selected>No</option>
+											<option value="1">Yes</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="my-1 mr-2" for="specialisation">specialisation</label>
+                                        <select class="custom-select my-1 mr-sm-2" id="specialisation" name="specialisation" required>
+                                            <option value="0" selected>Mkt&Fin</option>
+											<option value="1">Mkt&HR</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-block btn-primary" onclick="last()">Predict</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+</main>
+</body>
+</html>
