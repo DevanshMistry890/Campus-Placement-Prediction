@@ -1,0 +1,28 @@
+2022-07-15 22:08:05,790:DEBUG: Model.py File execution started 
+2022-07-15 22:08:05,790:DEBUG: Database Loaded 
+2022-07-15 22:08:05,836:DEBUG: Execution of Model.py is finished 
+2022-07-15 22:09:43,081:DEBUG: Model.py File execution started 
+2022-07-15 22:09:43,087:DEBUG: Database Loaded 
+2022-07-15 22:09:43,121:DEBUG: Execution of Model.py is finished 
+2022-07-15 22:16:01,059:DEBUG: Model.py File execution started 
+2022-07-15 22:16:01,059:DEBUG: Database Loaded 
+2022-07-15 22:16:01,069:DEBUG:{'ssc_b': {'Central': 0, 'Others': 1}, 'hsc_b': {'Central': 0, 'Others': 1}, 'hsc_s': {'Arts': 0, 'Commerce': 1, 'Science': 2}, 'degree_t': {'Comm&Mgmt': 0, 'Others': 1, 'Sci&Tech': 2}, 'workex': {'No': 0, 'Yes': 1}, 'specialisation': {'Mkt&Fin': 0, 'Mkt&HR': 1}, 'status': {'Not Placed': 0, 'Placed': 1}}
+2022-07-15 22:16:01,125:DEBUG: Execution of Model.py is finished 
+2022-07-15 22:51:24,328:DEBUG: Model.py File execution started 
+2022-07-15 22:51:24,328:DEBUG: Database Loaded 
+2022-07-15 22:51:24,328:DEBUG:{'ssc_b': {'Central': 0, 'Others': 1}, 'hsc_b': {'Central': 0, 'Others': 1}, 'hsc_s': {'Arts': 0, 'Commerce': 1, 'Science': 2}, 'degree_t': {'Comm&Mgmt': 0, 'Others': 1, 'Sci&Tech': 2}, 'workex': {'No': 0, 'Yes': 1}, 'specialisation': {'Mkt&Fin': 0, 'Mkt&HR': 1}, 'status': {'Not Placed': 0, 'Placed': 1}}
+2022-07-15 22:51:24,378:DEBUG: Execution of Model.py is finished 
+2022-07-16 09:40:55,605:DEBUG: Model.py File execution started 
+2022-07-16 09:40:55,605:DEBUG: Database Loaded 
+2022-07-16 09:40:55,605:DEBUG:{'ssc_b': {'Central': 0, 'Others': 1}, 'hsc_b': {'Central': 0, 'Others': 1}, 'hsc_s': {'Arts': 0, 'Commerce': 1, 'Science': 2}, 'degree_t': {'Comm&Mgmt': 0, 'Others': 1, 'Sci&Tech': 2}, 'workex': {'No': 0, 'Yes': 1}, 'specialisation': {'Mkt&Fin': 0, 'Mkt&HR': 1}, 'status': {'Not Placed': 0, 'Placed': 1}}
+2022-07-16 09:41:30,858:DEBUG: Model.py File execution started 
+2022-07-16 09:41:30,858:DEBUG: Database Loaded 
+2022-07-16 09:41:30,858:DEBUG:{'ssc_b': {'Central': 0, 'Others': 1}, 'hsc_b': {'Central': 0, 'Others': 1}, 'hsc_s': {'Arts': 0, 'Commerce': 1, 'Science': 2}, 'degree_t': {'Comm&Mgmt': 0, 'Others': 1, 'Sci&Tech': 2}, 'workex': {'No': 0, 'Yes': 1}, 'specialisation': {'Mkt&Fin': 0, 'Mkt&HR': 1}, 'status': {'Not Placed': 0, 'Placed': 1}}
+2022-07-16 09:42:24,577:DEBUG: Model.py File execution started 
+2022-07-16 09:42:24,577:DEBUG: Database Loaded 
+2022-07-16 09:42:24,581:DEBUG:{'ssc_b': {'Central': 0, 'Others': 1}, 'hsc_b': {'Central': 0, 'Others': 1}, 'hsc_s': {'Arts': 0, 'Commerce': 1, 'Science': 2}, 'degree_t': {'Comm&Mgmt': 0, 'Others': 1, 'Sci&Tech': 2}, 'workex': {'No': 0, 'Yes': 1}, 'specialisation': {'Mkt&Fin': 0, 'Mkt&HR': 1}, 'status': {'Not Placed': 0, 'Placed': 1}}
+2022-07-16 09:42:24,614:DEBUG: Execution of Model.py is finished 
+2022-07-16 21:05:19,902:DEBUG: Model.py File execution started 
+2022-07-16 21:05:19,926:DEBUG: Database Loaded 
+2022-07-16 21:05:19,934:DEBUG:Database Pre-processing is Finished
+2022-07-16 21:05:19,979:DEBUG: Execution of Model.py is finished 
