@@ -31,7 +31,7 @@ The Campus Recruitment Prediction (Course Project) Dataset BY QuantumAI has been
 - [dataset](https://www.kaggle.com/c/ml-with-python-course-project/data)
 
 
-## Homepage (Responsive)
+## Homepage & Prediction Result (Responsive)
 <img src = "image\Home.png" width = "700px">
 <img src = "image\Predict.png" width = "700px">
 
