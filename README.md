@@ -49,7 +49,7 @@ The Campus Recruitment Prediction (Course Project) Dataset BY QuantumAI has been
 #### How to run this code...
 - Create virtual environment
 ```bash
-conda create -n myenv python=3.8
+conda create -n myenv python=3.9
 ```
 - Activate the environment
 ```bash
